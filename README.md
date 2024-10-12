@@ -15,6 +15,7 @@ Data is collected from two South Korean newspapers  (*The Korea Herald* and *The
 
 ## How to Use
 1. **Scraping News Articles**:
+   - Set the end_date Parameter: In the scraping scripts located in the src/scrapers/ folder, specify the end_date         parameter. This date should be in the format 'YYYY-MM-DD' and determines the range of news articles to be collected from today until that date.
    - Run the scraping scripts to collect news articles:
      ```bash
      python src/scraper_korea_herald.py
@@ -22,7 +23,7 @@ Data is collected from two South Korean newspapers  (*The Korea Herald* and *The
      ```
    - The scrapers will collect the articles and save them as text files in the `data/` folder.
 
-2. **Information Retrieval**:
+3. **Information Retrieval**:
    - Use the Boolean IR system:
      ```bash
      python src/boolean_ir_system.py
@@ -32,7 +33,7 @@ Data is collected from two South Korean newspapers  (*The Korea Herald* and *The
      python src/vector_space_ir_system.py
      ```
 
-3. **Evaluate Results**:
+4. **Evaluate Results**:
    - Both systems will return relevant articles based on your queries. You can then analyze the performance in terms of precision, recall, and time efficiency.
 
 ## Documentation
