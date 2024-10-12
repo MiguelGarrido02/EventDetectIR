@@ -104,8 +104,7 @@ documents = []
 
 # Initialize an InvertedIndex object
 index = InvertedIndex()
-file_path = r"C:\Users\34606\source\repos\RetrievingData\news_database.txt"
-#file_path = r"C:\Users\34606\source\repos\RetrievingData\test_database.txt"
+file_path = r"data\database.txt"
 
 
 # Read documents from a file
