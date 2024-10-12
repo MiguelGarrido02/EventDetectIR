@@ -181,10 +181,7 @@ documents = []
 
 # Initialize a RankedRetrieval object
 retrieval = RankedRetrieval()
-#file_path = r"C:\Users\34606\source\repos\RetrievingData\TheHerald_articles_all_sections_news.txt"
-#file_path = r"C:\Users\34606\source\repos\RetrievingData\test_database.txt"
-#file_path = r"C:\Users\34606\source\repos\RetrievingData\news_database.txt"
-file_path = r"C:\Users\34606\source\repos\RetrievingData\expanded_database.txt"
+file_path = r"data\database.txt"
 
 
 # Read documents from a file
